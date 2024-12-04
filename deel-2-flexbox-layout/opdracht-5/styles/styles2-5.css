@@ -1,0 +1,45 @@
+/*Opdracht 2-5*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main    {
+    border: 3px solid green;
+    display: flex;
+    flex-direction: row;
+}
+
+header, footer  {
+    flex: 1 1 100px;
+}
+
+main  {
+    display: flex;
+    flex-direction: row;
+    flex: 8 0 100px;
+}
+
+nav {
+    flex: 1 1 100px;
+    order: 1;
+}
+
+article {
+    flex: 5 1 200px;
+    order: 2;
+}
+
+aside {
+    flex: 1 1 100px;
+    order: 3;
+}

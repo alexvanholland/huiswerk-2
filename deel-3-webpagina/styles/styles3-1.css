@@ -1,0 +1,97 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Main
+
+////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles en Typografie
+
+    Space cadet:    #151E3F
+    Oxford blue:    #030027
+    Beige:          #F2F3D9
+    Buff:           #DC9E82
+    Old rose:       #C16E70
+
+    Arial
+
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2d8;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+/*/////////////////////////
+    3.1 Header
+ */
+
+header  {
+    background-color: #151E3F;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 20px;
+}
+
+/* parent nav*/
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    flex-basis: 100%;
+    justify-content: flex-end;
+}
+
+/*/////////////////////////
+    3.2 Main
+ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.titles {
+    padding: 40px;
+    margin: 20px;
+}
+
+/* parent main*/
+.content {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    flex-basis: 350px;
+    gap: 40px;
+}
+
+/* parent .content*/
+.content div {
+    background-color: #c16e70;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    flex: 0 1 280px;
+    align-items: flex-end;
+}

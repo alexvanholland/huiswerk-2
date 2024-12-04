@@ -1,0 +1,46 @@
+
+/*
+opdracht 2.1*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    height: 100vh;
+}
+
+header    {
+    flex-basis: 200px;
+}
+
+main    {
+    display: flex;
+    flex-direction: row;
+
+}
+
+article {
+    flex-basis: 60%;
+    order: 1;
+}
+
+nav {
+    flex-basis: 20%;
+    order: 3;
+}
+
+aside {
+    flex-basis: 20%;
+    order: 2;
+}
+
+footer {
+    flex-basis: 100px;
+}

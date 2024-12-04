@@ -1,0 +1,64 @@
+/*opdracht 4*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body    {
+    /*border: 3px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+/*parent body*/
+.outer-col-1 {
+    flex: 0 0 200px;
+}
+
+/*parent body*/
+.outer-col-2   {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+/*parent outer-col-2*/
+header {
+    flex: 0 0 100px;
+}
+
+/*parent outer-col-2*/
+.inner-row {
+    /*border: 3px solid pink;*/
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 100px;
+}
+
+/*parent inner-row*/
+.inner-col {
+    /*border: 3px solid green;*/
+    display: flex;
+    flex-direction: column;
+    flex: 7 0 0;
+}
+
+/*parent inner-row*/
+aside {
+    flex: 1 0 100px;
+}
+
+/*parent inner-col*/
+article {
+    flex: 2 1 100px;
+}
+
+/*parent inner-col*/
+footer {
+    flex: 0 0 100px;
+}
+

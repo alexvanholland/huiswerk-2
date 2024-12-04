@@ -39,11 +39,11 @@ toepassing zijn op de parent (flex container) en de children (flex items).
 
 In het `index.html` bestand hebben we 5 opdrachten uitgewerkt. Zorg ervoor dat deze onderdelen er exact zo uit komen te
 zien als in het voorbeeld dat erboven wordt weergegeven. De CSS voeg je toe aan
-het [styles.css](deel-1-flexbox-positioneren/styles/styles.css) bestand. Loop je vast bij het maken van de opdracht?
+het [styles.css](deel-1-flexbox-positioneren/styles/styles-opdracht-1.css) bestand. Loop je vast bij het maken van de opdracht?
 Bekijk dan eens het stappenplan om te zien of dat je verder helpt.
 
 * Je hoeft géén nieuwe HTML elementen te creëren, maar daar waar nodig mag je wel classes toevoegen aan de bestaande
-  elementen in het [index.html](deel-1-flexbox-positioneren/index.html) bestand;
+  elementen in het [index.html](deel-1-flexbox-positioneren/index-opdracht-1.html) bestand;
 * Elke deel-opdracht heeft een eigen `section` element. Dit element is om een nieuwe deel-opdracht aan te duiden en
   gebruik je niet om je elementen op uit te lijnen. Dit doe je dus alleen op de `div`, `ul` of `li` items;
 * Je mag de bestanden (`.css` & `.html`) niet verplaatsen;

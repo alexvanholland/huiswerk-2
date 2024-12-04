@@ -1,0 +1,89 @@
+/*CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.opdracht-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid red;
+}
+
+.opdracht-2 ul {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+}
+
+
+.opdracht2-1 {
+    flex-basis: 240px;
+}
+
+.opdracht2-2 {
+    flex-basis: 240px;
+}
+
+.opdracht2-3 {
+    flex-basis: 240px;
+}
+
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid red;
+    }
+
+.top-left {
+    align-self: flex-start;
+}
+
+.centered  {
+    align-self: center;
+}
+
+.bottom-right {
+    align-self: flex-end;
+}
+
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 3px solid red;
+    gap: 15px;
+}
+
+.opdracht-5 {
+    display: flex;
+}
+
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 3px solid red;
+    flex-grow: 1;
+}
+
+.opdracht-5 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid green;
+}
+.column-1 {
+    align-items: flex-start;
+}
+
+.column-2 {
+    align-items: center;
+}
+
+.column-3 {
+    align-items: flex-end;
+}
